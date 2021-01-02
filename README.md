@@ -14,7 +14,7 @@ A database of Transformers characters
 
 ## **GET** */transformers/filter={`filter_by`}&pageSize={`page_size`}* <br>
 *Filter for a Transformer* <br>
-`filter_by` - Required, the value to filter by, could be `name`, `function`, `alignment` etc *{STRING}* <br>
+`filter_by` - Required, the value to filter by, could be `name`, `function`, `allegiance` etc *{STRING}* <br>
 `page_size` - Optional, the maximum amount of results the request should return. Default is 10 *{INTEGER}*
 
 ## **GET** */transformers/search/{`query`}* <br>
