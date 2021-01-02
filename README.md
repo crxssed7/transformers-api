@@ -1,7 +1,7 @@
 # Transformers API
 A database of Transformers characters
 
-![Transformers](https://assets.stickpng.com/images/5cb488715f1b6d3fbadece81.png)
+![Transformers](https://assets.stickpng.com/images/5cb4886a5f1b6d3fbadece80.png)
 
 # Endpoints
 `baseURL` - LOCALHOST
