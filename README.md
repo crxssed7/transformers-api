@@ -50,11 +50,35 @@ A database of Transformers characters
 }
 ```
 ```
-Allegiances: <br>
-	None, <br>
-	Autobot, <br>
-	Decepticon, <br>
-	Quintesson, <br>
+Allegiances: 
+	None, 
+	Autobot, 
+	Decepticon, 
+	Quintesson, 
 	Unicron
 ```
 ## Subgroup Model
+```
+{
+	'id' : integer,
+	'name' : string,
+	'alignment' : string,
+	'image' : string
+}
+```
+```
+Subgroups:
+	None,
+	Aerialbot,
+	Lithone,
+	Protectobot,
+	Combaticon,
+	Insecticon,
+	Stunticon,
+	Constructicon,
+	Predacon,
+	Dinobot,
+	Quintesson,
+	Battlecharger,
+	Junkion
+```
