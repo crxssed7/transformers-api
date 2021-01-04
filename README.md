@@ -49,12 +49,12 @@ A database of Transformers characters
 	'image' : string
 }
 ```
-
+```
 Allegiances: <br>
 	None, <br>
 	Autobot, <br>
 	Decepticon, <br>
 	Quintesson, <br>
 	Unicron
-
+```
 ## Subgroup Model
