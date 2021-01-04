@@ -1,0 +1,51 @@
+Transformer Model:
+{
+	'id' : integer,
+	'name' : string,
+	'allegiance' : integer,
+	'allegiance_name' : string,
+	'subgroup' : integer,
+	'subgroup_name' : string,
+	'role' : string,
+	'first_appearance' : string,
+	'image' : string,
+	'description' : string
+}
+
+Allegiance Model:
+{
+	'id' : integer,
+	'name' : string,
+	'alignment' : string,
+	'image' : string
+}
+
+Allegiances:
+	None,
+	Autobot,
+	Decepticon,
+	Quintesson,
+	Unicron
+
+Subgroup Model:
+{
+	'id' : integer,
+	'name' : string,
+	'alignment' : string,
+	'image' : string
+}
+
+Subgroups:
+	None,
+	Aerialbot,
+	Lithone,
+	Protectobot,
+	Combaticon,
+	Insecticon,
+	Stunticon,
+	Constructicon,
+	Predacon,
+	Dinobot,
+	Quintesson,
+	Battlecharger,
+	Junkion
