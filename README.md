@@ -20,3 +20,5 @@ A database of Transformers characters
 ## **GET** */transformers/search/{`query`}* <br>
 *Search for a Transformer based off of the given query* <br>
 `query` - Required, the name of the Transformer to search for *{STRING}*
+
+# Models
