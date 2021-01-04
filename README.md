@@ -22,3 +22,21 @@ A database of Transformers characters
 `query` - Required, the name of the Transformer to search for *{STRING}*
 
 # Models
+
+## Transformer
+
+```json
+{
+	'id' : integer,
+	'name' : string,
+	'allegiance' : integer,
+	'allegiance_name' : string,
+	'subgroup' : integer,
+	'subgroup_name' : string,
+	'role' : string,
+	'first_appearance' : string,
+	'image' : string,
+	'description' : string
+}
+```
+
