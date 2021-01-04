@@ -23,9 +23,9 @@ A database of Transformers characters
 
 # Models
 
-## Transformer
+## Transformer Model
 
-```json
+```
 {
 	'id' : integer,
 	'name' : string,
@@ -40,3 +40,21 @@ A database of Transformers characters
 }
 ```
 
+## Allegiance Model
+```
+{
+	'id' : integer,
+	'name' : string,
+	'alignment' : string,
+	'image' : string
+}
+```
+
+Allegiances:
+	None,
+	Autobot,
+	Decepticon,
+	Quintesson,
+	Unicron
+
+## Subgroup Model
