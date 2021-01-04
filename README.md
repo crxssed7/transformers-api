@@ -50,11 +50,11 @@ A database of Transformers characters
 }
 ```
 
-Allegiances:
-	None,
-	Autobot,
-	Decepticon,
-	Quintesson,
+Allegiances: <br>
+	None, <br>
+	Autobot, <br>
+	Decepticon, <br>
+	Quintesson, <br>
 	Unicron
 
 ## Subgroup Model
