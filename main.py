@@ -2,37 +2,12 @@ from flask import Flask
 from flask_restful import Api, Resource, reqparse, abort, fields, marshal_with
 from flask_sqlalchemy import SQLAlchemy
 import model_args
+import resource_fields
 
 app = Flask(__name__)
 api = Api(app)
 app.config['SQLALCHEMY_DATABASE_URI'] = 'sqlite:///database.db'
 db = SQLAlchemy(app)
-
-transformer_resource_fields = {
-    'id': fields.Integer,
-    'name': fields.String,
-    'allegiance': fields.String,
-    'allegiance_name': fields.String,
-    'subgroup': fields.String,
-    'subgroup_name': fields.String,
-    'role': fields.String,
-    'image': fields.String,
-    'description': fields.String
-}
-
-allegiance_resource_fields = {
-    'id': fields.Integer,
-    'name': fields.String,
-    'alignment': fields.String,
-    'image': fields.String
-}
-
-subgroup_resource_fields = {
-    'id': fields.Integer,
-    'name': fields.String,
-    'alignment': fields.String,
-    'image': fields.String
-}
 
 class TransformerModel(db.Model):
     id = db.Column(db.Integer, primary_key=True)
@@ -59,14 +34,14 @@ class SubgroupModel(db.Model):
     image = db.Column(db.String(200))
 
 class Transformer(Resource):
-    @marshal_with(transformer_resource_fields)
+    @marshal_with(resource_fields.transformer_resource_fields)
     def get(self, transformer_id):
         result = TransformerModel.query.filter_by(id=transformer_id).first()
         if not result:
             abort(404, message="No Transfomer found with that ID")
         return result
 
-    @marshal_with(transformer_resource_fields)
+    @marshal_with(resource_fields.transformer_resource_fields)
     def put(self, transformer_id):
         args = model_args.transformers_put_args.parse_args()
         # Check if the Transfomer with that ID already exists
@@ -96,14 +71,14 @@ class Transformer(Resource):
         return '', 204
 
 class Allegiance(Resource):
-    @marshal_with(allegiance_resource_fields)
+    @marshal_with(resource_fields.allegiance_resource_fields)
     def get(self, allegiance_id):
         result = AllegianceModel.query.filter_by(id=allegiance_id).first()
         if not result:
             abort(404, message="No allegiance was found with that ID")
         return result
 
-    @marshal_with(allegiance_resource_fields)
+    @marshal_with(resource_fields.allegiance_resource_fields)
     def put(self, allegiance_id):
         args = model_args.allegiance_put_args.parse_args()
         # Check that the ID doesn't exist
@@ -121,14 +96,14 @@ class Allegiance(Resource):
         return allegiance, 201
 
 class Subgroup(Resource):
-    @marshal_with(subgroup_resource_fields)
+    @marshal_with(resource_fields.subgroup_resource_fields)
     def get(self, subgroup_id):
         result = SubgroupModel.query.filter_by(id=subgroup_id).first()
         if not result:
             abort(404, message="No subgroup found with that ID")
         return result
 
-    @marshal_with(subgroup_resource_fields)
+    @marshal_with(resource_fields.subgroup_resource_fields)
     def put(self, subgroup_id):
         args = model_args.subgroup_put_args.parse_args()
         # Check that ID doesn't exists

@@ -24,5 +24,5 @@ data = {
 #response = requests.get(BASE + "allegiance/1")
 #print(response.json())
 
-response = requests.put(BASE + "transformers/1", data=data)
-print(response.json())
+response = requests.delete(BASE + "transformers/1")
+print(response)
