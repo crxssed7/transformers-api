@@ -39,7 +39,7 @@ class TransformerModel(db.Model):
     name = db.Column(db.String(100), nullable=False)
     allegiance = db.Column(db.Integer, nullable=False)
     allegiance_name = db.Column(db.String(100))
-    subgroup = db.Column(db.String(100))
+    subgroup = db.Column(db.Integer, nullable=False)
     subgroup_name = db.Column(db.String(100))
     role = db.Column(db.String(100))
     first_appearance = db.Column(db.String(100))
@@ -77,8 +77,12 @@ class Transformer(Resource):
         allegiance_result = AllegianceModel.query.filter_by(id=args['allegiance']).first()
         if not allegiance_result:
             abort(404, message="No allegiance found with given ID")
+        # Get the subgroup from the subgroup_id
+        subgroup_result = SubgroupModel.query.filter_by(id=args['subgroup']).first()
+        if not subgroup_result:
+            abort(404, message="No subgroup found with the given ID")
         # Create a new Transformer instance
-        transformer = TransformerModel(id=transformer_id, name=args['name'], allegiance=args['allegiance'], subgroup=args['subgroup'], role=args['role'], image=args['image'], description=args['description'], first_appearance=args['first_appearance'], allegiance_name=allegiance_result.name, subgroup_name="teey")
+        transformer = TransformerModel(id=transformer_id, name=args['name'], allegiance=args['allegiance'], subgroup=args['subgroup'], role=args['role'], image=args['image'], description=args['description'], first_appearance=args['first_appearance'], allegiance_name=allegiance_result.name, subgroup_name=subgroup_result.name)
         db.session.add(transformer)
         db.session.commit()
         return transformer, 201
@@ -123,6 +127,23 @@ class Subgroup(Resource):
         if not result:
             abort(404, message="No subgroup found with that ID")
         return result
+
+    @marshal_with(subgroup_resource_fields)
+    def put(self, subgroup_id):
+        args = model_args.subgroup_put_args.parse_args()
+        # Check that ID doesn't exists
+        checkForID = SubgroupModel.query.filter_by(id=subgroup_id).first()
+        if checkForID:
+            abort(409, message="Subgroup ID already exists")
+        # Check if the subgroup already exists
+        checkForSubgroup = SubgroupModel.query.filter_by(name=args['name']).first()
+        if checkForSubgroup:
+            abort(409, message="Subgroup already exists")
+        # Create new subgroup instance
+        subgroup = SubgroupModel(id=subgroup_id, name=args['name'], alignment=args['alignment'], image=args['image'])
+        db.session.add(subgroup)
+        db.session.commit()
+        return subgroup, 201
 
 api.add_resource(Transformer, "/transformers/<int:transformer_id>")
 api.add_resource(Allegiance, "/allegiance/<int:allegiance_id>")
