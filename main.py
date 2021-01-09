@@ -83,6 +83,14 @@ class Transformer(Resource):
         db.session.commit()
         return transformer, 201
 
+    def delete(self, transformer_id):
+        result = TransformerModel.query.filter_by(id=transformer_id).first()
+        if not result:
+            abort(404, message="No Transfomer found with that ID")
+        db.session.delete(result)
+        db.session.commit()
+        return '', 204
+
 class Allegiance(Resource):
     @marshal_with(allegiance_resource_fields)
     def get(self, allegiance_id):
