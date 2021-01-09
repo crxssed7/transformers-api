@@ -1,131 +1,131 @@
 name,allegiance,subgroup,role,image
-"Air Rade",2,2,"Warrior",
-"Arblus",1,3,"None",
-"Arcee",2,1,"Warrior",
-"Astrotrain",3,1,"Military Transport",
-"Beachcomber",2,1,"Geologist",
-"Blades",2,4,"Air Support",
-"Blast Off",3,5,"Space Warrior",
-"Blaster",2,1,"Communications",
-"Blitzwing",3,1,"Ground & Air Commando",
-"Bluestreak",2,1,"Gunner",
-"Blurr",2,1,"Data Courier",
-"Bombshell",3,6,"Psychological Warfare",
-"Bonecrusher",3,1,"Demolitions",
-"Brawl",3,5,"Ground Assault",
-"Brawn",2,1,"Demolitions",
-"Breakdown",3,7,"Scout",
-"Broadside",2,1,"Air & Sea Assault",
-"Bruticus",3,5,"Warrior",
-"Bumblebee",2,1,"Espionage",
-"Buzzsaw",3,1,"Reconnaissance",
-"Cliffjumper",2,1,"Warrior",
-"Cosmos",2,1,"Reconnaissance & Communications",
-"Cyclonus",3,1,"Saboteur",
-"Deadend",3,7,"Warrior",
-"Defensor",2,4,"Defensive Operations",
-"Devastator",3,8,"Warrior",
-"Dirge",3,1,"Warrior",
-"Divebomb",3,9,"Aerial Assault",
-"Drag Strip",3,7,"Warrior",
-"Eject",2,1,"Electronic Surveillance",
-"Fireflight",2,2,"Reconnaissance",
-"First Aid",2,4,"Doctor",
-"Frenzy",3,1,"Warrior",
-"Galvatron",3,1,"Decepticon City Commander",
-"Gears",2,1,"Transport & Reconnaissance",
-"Grapple",2,1,"Architect",
-"Grimlock",2,10,"Dinobot Commander",
-"Groove",2,4,"Scout",
-"Headstrong",3,9,"Ground Assault",
-"Hoist",2,1,"Maintainance",
-"Hook",3,8,"Surgical Engineer",
-"Hot Rod",2,1,"Cavalier",
-"Hotspot",2,4,"Protectobot Leader",
-"Hound",2,1,"Scout",
-"Huffer",2,1,"Construction Engineer",
-"Inferno",2,1,"Search & Rescue",
-"Ironhide",2,1,"Security",
-"Jazz",2,1,"Special Operations & Saboteur",
-"Jetfire",2,1,"Air Guardian",
-"Kickback",3,6,"Espionage",
-"Kranix",1,3,"None",
-"Kup",2,1,"Warrior",
-"Laserbeak",3,1,"Interrogation",
-"Long Haul",3,8,"Transport",
-"Megatron",3,1,"Decepticon Leader",
-"Menasor",3,7,"Super Warrior",
-"Metroplex",2,1,"Battle Station",
-"Mirage",2,1,"Counter-Intelligence",
-"Mixmaster",3,8,"Materials Fabrication",
-"Motormaster",3,7,"Stunticon Leader",
-"Octane",3,1,"Fueler",
-"Omega Supreme",2,1,"Defense Base",
-"Onslaught",3,5,"Combaticon Commander",
-"Optimus Prime",2,1,"Autobot Leader",
-"Outback",2,1,"Gunner",
-"Perceptor",2,1,"Scientist",
-"Pipes",2,1,"Warrior",
-"Powerglide",2,1,"Warrior",
-"Predaking",3,9,"Warrior",
-"Prowl",2,1,"Military Strategist & Analyst",
-"Quintessons",5,11,"Enforcer",
-"Ramhorn",2,1,"Warrior",
-"Ramjet",3,1,"Warrior",
-"Rampage",3,9,"Gunner",
-"Ratbat",3,1,"Fuel Scout",
-"Ratchet",2,1,"Medic",
-"Ravage",3,1,"Saboteur",
-"Razorclaw",3,9,"Predacon Commander",
-"Red Alert",2,1,"Security Director",
-"Rewind",2,1,"Archivist",
-"Rodimus Prime",2,1,"Protector",
-"Rumble",3,1,"Demolitions",
-"Runabout",3,12,"Shocktrooper",
-"Runamuck",3,12,"Shocktrooper",
-"Sandstorm",2,1,"Reconnaissance",
-"Scavenger",3,8,"Mining & Salvage",
-"Scourge",3,1,"Sweep Leader",
-"Scrapper",3,8,"Construction Engineer",
-"Seaspray",2,1,"Naval Defense",
-"Sharkticon",4,1,"Executioner",
-"Shockwave",3,1,"Military Operations Commander",
-"Shrapnel",3,6,"Electronic Warfare",
-"Sideswipe",2,1,"Warrior",
-"Silverbolt",2,2,"Aerialbot Commander",
-"Skids",2,1,"Theoretician",
-"Sky Lynx",2,1,"Lieutenant Commander",
-"Skydive",2,2,"Air Warfare Strategist",
-"Skywarp",3,1,"Warrior",
-"Slag",2,10,"Flamethrower",
-"Slingshot",2,2,"Ground Troop Support",
-"Sludge",2,10,"Jungle Warrior and Demolitions",
-"Smokescreen",2,1,"Diversionary Tactician",
-"Snarl",2,10,"Desert Warrior",
-"Soundwave",3,1,"Communications",
-"Springer",2,1,"Aerial Defense",
-"Starscream",3,1,"Decepticon Aerospace Commander",
-"Steeljaw",2,1,"Tracker",
-"Streetwise",2,4,"Interceptor",
-"Sunstreaker",2,1,"Warrior",
-"Superion",2,2,"Warrior",
-"Swindle",3,5,"Munitions Expert",
-"Swoop",2,10,"Bombardier",
-"Tailgate",2,1,"Scout",
-"Tantrum",3,9,"Fueler",
-"Thrust",3,1,"Warrior",
-"Thundercracker",3,1,"Warrior",
-"Topspin",2,1,"Land & Sea Assault",
-"Tracks",2,1,"Warrior",
-"Trailbreaker",2,1,"Defensive Strategist",
-"Trypticon",3,1,"Assault Base",
-"Twin Twist",2,1,"Demolitions",
-"Ultra Magnus",2,1,"City Commander",
-"Unicron",1,1,"Universal Dominator",
-"Vortex",3,5,"Interrogation",
-"Warpath",2,1,"Warrior",
-"Wheelie",2,1,"Survivalist",
-"Wheeljack",2,1,"Mechanical Engineer",
-"Wildrider",3,7,"Terrorist",
-"Windcharger",2,1,"Warrior",
-"Wreck-Gar",2,13,"Junkion Leader",
+"Air Rade",2,2,"Warrior","https://res.cloudinary.com/crxssed/image/upload/v1609788899/transformers-api/profiles/001-Air%20Rade.jpg"
+"Arblus",1,3,"None","https://res.cloudinary.com/crxssed/image/upload/v1609788909/transformers-api/profiles/002-Arblus.jpg"
+"Arcee",2,1,"Warrior","https://res.cloudinary.com/crxssed/image/upload/v1609788918/transformers-api/profiles/003-Arcee.jpg"
+"Astrotrain",3,1,"Military Transport","https://res.cloudinary.com/crxssed/image/upload/v1609788926/transformers-api/profiles/004-Astrotrain.jpg"
+"Beachcomber",2,1,"Geologist","https://res.cloudinary.com/crxssed/image/upload/v1609788936/transformers-api/profiles/005-Beachcomber.jpg"
+"Blades",2,4,"Air Support","https://res.cloudinary.com/crxssed/image/upload/v1609788946/transformers-api/profiles/006-Blades.jpg"
+"Blast Off",3,5,"Space Warrior","https://res.cloudinary.com/crxssed/image/upload/v1609788955/transformers-api/profiles/007-Blast%20Off.jpg"
+"Blaster",2,1,"Communications","https://res.cloudinary.com/crxssed/image/upload/v1609788966/transformers-api/profiles/008-Blaster.jpg"
+"Blitzwing",3,1,"Ground & Air Commando","https://res.cloudinary.com/crxssed/image/upload/v1609788974/transformers-api/profiles/009-Blitzwing.jpg"
+"Bluestreak",2,1,"Gunner","https://res.cloudinary.com/crxssed/image/upload/v1609788984/transformers-api/profiles/010-Blue%20Streak.jpg"
+"Blurr",2,1,"Data Courier","https://res.cloudinary.com/crxssed/image/upload/v1609788994/transformers-api/profiles/011-Blurr.jpg"
+"Bombshell",3,6,"Psychological Warfare","https://res.cloudinary.com/crxssed/image/upload/v1609789004/transformers-api/profiles/012-Bombshell.jpg"
+"Bonecrusher",3,1,"Demolitions","https://res.cloudinary.com/crxssed/image/upload/v1609789014/transformers-api/profiles/013-Bonecrusher.jpg"
+"Brawl",3,5,"Ground Assault","https://res.cloudinary.com/crxssed/image/upload/v1609789026/transformers-api/profiles/014-Brawl.jpg"
+"Brawn",2,1,"Demolitions","https://res.cloudinary.com/crxssed/image/upload/v1609789037/transformers-api/profiles/015-Brawn.jpg"
+"Breakdown",3,7,"Scout","https://res.cloudinary.com/crxssed/image/upload/v1609789050/transformers-api/profiles/016-Breakdown.jpg"
+"Broadside",2,1,"Air & Sea Assault","https://res.cloudinary.com/crxssed/image/upload/v1609789059/transformers-api/profiles/017-Broadside.jpg"
+"Bruticus",3,5,"Warrior","https://res.cloudinary.com/crxssed/image/upload/v1609789068/transformers-api/profiles/018-Bruticus.jpg"
+"Bumblebee",2,1,"Espionage","https://res.cloudinary.com/crxssed/image/upload/v1609789077/transformers-api/profiles/019-Bumblebee.jpg"
+"Buzzsaw",3,1,"Reconnaissance","https://res.cloudinary.com/crxssed/image/upload/v1609789087/transformers-api/profiles/020-Buzzsaw.jpg"
+"Cliffjumper",2,1,"Warrior","https://res.cloudinary.com/crxssed/image/upload/v1609789096/transformers-api/profiles/021-Cliffjumper.jpg"
+"Cosmos",2,1,"Reconnaissance & Communications","https://res.cloudinary.com/crxssed/image/upload/v1609789104/transformers-api/profiles/022-Cosmos.jpg"
+"Cyclonus",3,1,"Saboteur","https://res.cloudinary.com/crxssed/image/upload/v1609789114/transformers-api/profiles/023-Cyclonus.jpg"
+"Deadend",3,7,"Warrior","https://res.cloudinary.com/crxssed/image/upload/v1609789123/transformers-api/profiles/024-Deadend.jpg"
+"Defensor",2,4,"Defensive Operations","https://res.cloudinary.com/crxssed/image/upload/v1609789133/transformers-api/profiles/025-Defensor.jpg"
+"Devastator",3,8,"Warrior","https://res.cloudinary.com/crxssed/image/upload/v1609789142/transformers-api/profiles/026-Devastator.jpg"
+"Dirge",3,1,"Warrior","https://res.cloudinary.com/crxssed/image/upload/v1609789152/transformers-api/profiles/027-Dirge.jpg"
+"Divebomb",3,9,"Aerial Assault","https://res.cloudinary.com/crxssed/image/upload/v1609789160/transformers-api/profiles/028-Divebomb.jpg"
+"Drag Strip",3,7,"Warrior","https://res.cloudinary.com/crxssed/image/upload/v1609789169/transformers-api/profiles/029-Drag%20Strip.jpg"
+"Eject",2,1,"Electronic Surveillance","https://res.cloudinary.com/crxssed/image/upload/v1609789178/transformers-api/profiles/030-Eject.jpg"
+"Fireflight",2,2,"Reconnaissance","https://res.cloudinary.com/crxssed/image/upload/v1609789186/transformers-api/profiles/031-Fireflight.jpg"
+"First Aid",2,4,"Doctor","https://res.cloudinary.com/crxssed/image/upload/v1609789195/transformers-api/profiles/032-First%20Aid.jpg"
+"Frenzy",3,1,"Warrior","https://res.cloudinary.com/crxssed/image/upload/v1609789205/transformers-api/profiles/033-Frenzy.jpg"
+"Galvatron",3,1,"Decepticon City Commander","https://res.cloudinary.com/crxssed/image/upload/v1609789215/transformers-api/profiles/034-Galvatron.jpg"
+"Gears",2,1,"Transport & Reconnaissance","https://res.cloudinary.com/crxssed/image/upload/v1609789224/transformers-api/profiles/035-Gears.jpg"
+"Grapple",2,1,"Architect","https://res.cloudinary.com/crxssed/image/upload/v1609789241/transformers-api/profiles/036-Grapple.jpg"
+"Grimlock",2,10,"Dinobot Commander","https://res.cloudinary.com/crxssed/image/upload/v1609789253/transformers-api/profiles/037-Grimlock.jpg"
+"Groove",2,4,"Scout","https://res.cloudinary.com/crxssed/image/upload/v1609789266/transformers-api/profiles/038-Groove.jpg"
+"Headstrong",3,9,"Ground Assault","https://res.cloudinary.com/crxssed/image/upload/v1609789275/transformers-api/profiles/039-Headstrong.jpg"
+"Hoist",2,1,"Maintainance","https://res.cloudinary.com/crxssed/image/upload/v1609789283/transformers-api/profiles/040-Hoist.jpg"
+"Hook",3,8,"Surgical Engineer","https://res.cloudinary.com/crxssed/image/upload/v1609789293/transformers-api/profiles/041-Hook.jpg"
+"Hot Rod",2,1,"Cavalier","https://res.cloudinary.com/crxssed/image/upload/v1609789304/transformers-api/profiles/042-Hot%20Rod.jpg"
+"Hotspot",2,4,"Protectobot Leader","https://res.cloudinary.com/crxssed/image/upload/v1609789314/transformers-api/profiles/043-Hotspot.jpg"
+"Hound",2,1,"Scout","https://res.cloudinary.com/crxssed/image/upload/v1609789323/transformers-api/profiles/044-Hound.jpg"
+"Huffer",2,1,"Construction Engineer","https://res.cloudinary.com/crxssed/image/upload/v1609789333/transformers-api/profiles/045-Huffer.jpg"
+"Inferno",2,1,"Search & Rescue","https://res.cloudinary.com/crxssed/image/upload/v1609789347/transformers-api/profiles/046-Inferno.jpg"
+"Ironhide",2,1,"Security","https://res.cloudinary.com/crxssed/image/upload/v1609789356/transformers-api/profiles/047-Ironhide.jpg"
+"Jazz",2,1,"Special Operations & Saboteur","https://res.cloudinary.com/crxssed/image/upload/v1609789365/transformers-api/profiles/048-Jazz.jpg"
+"Jetfire",2,1,"Air Guardian","https://res.cloudinary.com/crxssed/image/upload/v1609789374/transformers-api/profiles/049-Jetfire.jpg"
+"Kickback",3,6,"Espionage","https://res.cloudinary.com/crxssed/image/upload/v1609789390/transformers-api/profiles/050-Kickback.jpg"
+"Kranix",1,3,"None","https://res.cloudinary.com/crxssed/image/upload/v1609789399/transformers-api/profiles/051-Kranix.jpg"
+"Kup",2,1,"Warrior","https://res.cloudinary.com/crxssed/image/upload/v1609789408/transformers-api/profiles/052-Kup.jpg"
+"Laserbeak",3,1,"Interrogation","https://res.cloudinary.com/crxssed/image/upload/v1609789417/transformers-api/profiles/053-Laserbeak.jpg"
+"Long Haul",3,8,"Transport","https://res.cloudinary.com/crxssed/image/upload/v1609789427/transformers-api/profiles/054-Long%20Haul.jpg"
+"Megatron",3,1,"Decepticon Leader","https://res.cloudinary.com/crxssed/image/upload/v1609789436/transformers-api/profiles/055-Megatron.jpg"
+"Menasor",3,7,"Super Warrior","https://res.cloudinary.com/crxssed/image/upload/v1609789464/transformers-api/profiles/056-Menasor.jpg"
+"Metroplex",2,1,"Battle Station","https://res.cloudinary.com/crxssed/image/upload/v1609789475/transformers-api/profiles/057-Metroplex.jpg"
+"Mirage",2,1,"Counter-Intelligence","https://res.cloudinary.com/crxssed/image/upload/v1609789504/transformers-api/profiles/058-Mirage.jpg"
+"Mixmaster",3,8,"Materials Fabrication","https://res.cloudinary.com/crxssed/image/upload/v1609789528/transformers-api/profiles/059-Mixmaster.jpg"
+"Motormaster",3,7,"Stunticon Leader","https://res.cloudinary.com/crxssed/image/upload/v1609789572/transformers-api/profiles/060-Motormaster.jpg"
+"Octane",3,1,"Fueler","https://res.cloudinary.com/crxssed/image/upload/v1609789581/transformers-api/profiles/061-Octane.jpg"
+"Omega Supreme",2,1,"Defense Base","https://res.cloudinary.com/crxssed/image/upload/v1609789591/transformers-api/profiles/062-Omega%20Supreme.jpg"
+"Onslaught",3,5,"Combaticon Commander","https://res.cloudinary.com/crxssed/image/upload/v1609789602/transformers-api/profiles/063-Onslaught.jpg"
+"Optimus Prime",2,1,"Autobot Leader","https://res.cloudinary.com/crxssed/image/upload/v1609789612/transformers-api/profiles/064-Optimus%20Prime.jpg"
+"Outback",2,1,"Gunner","https://res.cloudinary.com/crxssed/image/upload/v1609789623/transformers-api/profiles/065-Outback.jpg"
+"Perceptor",2,1,"Scientist","https://res.cloudinary.com/crxssed/image/upload/v1609789635/transformers-api/profiles/066-Perceptor.jpg"
+"Pipes",2,1,"Warrior","https://res.cloudinary.com/crxssed/image/upload/v1609789644/transformers-api/profiles/067-Pipes.jpg"
+"Powerglide",2,1,"Warrior","https://res.cloudinary.com/crxssed/image/upload/v1609789653/transformers-api/profiles/068-Powerglide.jpg"
+"Predaking",3,9,"Warrior","https://res.cloudinary.com/crxssed/image/upload/v1609789668/transformers-api/profiles/069-Predaking.jpg"
+"Prowl",2,1,"Military Strategist & Analyst","https://res.cloudinary.com/crxssed/image/upload/v1609789678/transformers-api/profiles/070-Prowl.jpg"
+"Quintessons",5,11,"Enforcer","https://res.cloudinary.com/crxssed/image/upload/v1609789688/transformers-api/profiles/071-Quintessons.jpg"
+"Ramhorn",2,1,"Warrior","https://res.cloudinary.com/crxssed/image/upload/v1609789698/transformers-api/profiles/072-Ramhorn.jpg"
+"Ramjet",3,1,"Warrior","https://res.cloudinary.com/crxssed/image/upload/v1609789709/transformers-api/profiles/073-Ramjet.jpg"
+"Rampage",3,9,"Gunner","https://res.cloudinary.com/crxssed/image/upload/v1609789720/transformers-api/profiles/074-Rampage.jpg"
+"Ratbat",3,1,"Fuel Scout","https://res.cloudinary.com/crxssed/image/upload/v1609789730/transformers-api/profiles/075-Ratbat.jpg"
+"Ratchet",2,1,"Medic","https://res.cloudinary.com/crxssed/image/upload/v1609789740/transformers-api/profiles/076-Ratchet.jpg"
+"Ravage",3,1,"Saboteur","https://res.cloudinary.com/crxssed/image/upload/v1609789752/transformers-api/profiles/077-Ravage.jpg"
+"Razorclaw",3,9,"Predacon Commander","https://res.cloudinary.com/crxssed/image/upload/v1609789763/transformers-api/profiles/078-Razorclaw.jpg"
+"Red Alert",2,1,"Security Director","https://res.cloudinary.com/crxssed/image/upload/v1609789781/transformers-api/profiles/079-Red%20Alert.jpg"
+"Rewind",2,1,"Archivist","https://res.cloudinary.com/crxssed/image/upload/v1609789792/transformers-api/profiles/080-Rewind.jpg"
+"Rodimus Prime",2,1,"Protector","https://res.cloudinary.com/crxssed/image/upload/v1609789800/transformers-api/profiles/081-Rodimus%20Prime.jpg"
+"Rumble",3,1,"Demolitions","https://res.cloudinary.com/crxssed/image/upload/v1609789813/transformers-api/profiles/082-Rumble.jpg"
+"Runabout",3,12,"Shocktrooper","https://res.cloudinary.com/crxssed/image/upload/v1609789836/transformers-api/profiles/083-Runabout.jpg"
+"Runamuck",3,12,"Shocktrooper","https://res.cloudinary.com/crxssed/image/upload/v1609789849/transformers-api/profiles/084-Runamuck.jpg"
+"Sandstorm",2,1,"Reconnaissance","https://res.cloudinary.com/crxssed/image/upload/v1609789865/transformers-api/profiles/085-Sandstorm.jpg"
+"Scavenger",3,8,"Mining & Salvage","https://res.cloudinary.com/crxssed/image/upload/v1609789883/transformers-api/profiles/086-Scavenger.jpg"
+"Scourge",3,1,"Sweep Leader","https://res.cloudinary.com/crxssed/image/upload/v1609789899/transformers-api/profiles/087-Scourge.jpg"
+"Scrapper",3,8,"Construction Engineer","https://res.cloudinary.com/crxssed/image/upload/v1609789911/transformers-api/profiles/088-Scrapper.jpg"
+"Seaspray",2,1,"Naval Defense","https://res.cloudinary.com/crxssed/image/upload/v1609789947/transformers-api/profiles/089-Seaspray.jpg"
+"Sharkticon",4,1,"Executioner","https://res.cloudinary.com/crxssed/image/upload/v1609789962/transformers-api/profiles/090-Sharkticon.jpg"
+"Shockwave",3,1,"Military Operations Commander","https://res.cloudinary.com/crxssed/image/upload/v1609789984/transformers-api/profiles/091-Shockwave.jpg"
+"Shrapnel",3,6,"Electronic Warfare","https://res.cloudinary.com/crxssed/image/upload/v1609790000/transformers-api/profiles/092-Shrapnel.jpg"
+"Sideswipe",2,1,"Warrior","https://res.cloudinary.com/crxssed/image/upload/v1609790033/transformers-api/profiles/093-Sideswipe.jpg"
+"Silverbolt",2,2,"Aerialbot Commander","https://res.cloudinary.com/crxssed/image/upload/v1609790062/transformers-api/profiles/094-Silverbolt.jpg"
+"Skids",2,1,"Theoretician","https://res.cloudinary.com/crxssed/image/upload/v1609790339/transformers-api/profiles/095-Skids.jpg"
+"Sky Lynx",2,1,"Lieutenant Commander","https://res.cloudinary.com/crxssed/image/upload/v1609790369/transformers-api/profiles/096-Sky%20Lynx.jpg"
+"Skydive",2,2,"Air Warfare Strategist","https://res.cloudinary.com/crxssed/image/upload/v1609790380/transformers-api/profiles/097-Skydive.jpg"
+"Skywarp",3,1,"Warrior","https://res.cloudinary.com/crxssed/image/upload/v1609790389/transformers-api/profiles/098-Skywarp.jpg"
+"Slag",2,10,"Flamethrower","https://res.cloudinary.com/crxssed/image/upload/v1609790398/transformers-api/profiles/099-Slag.jpg"
+"Slingshot",2,2,"Ground Troop Support","https://res.cloudinary.com/crxssed/image/upload/v1609790407/transformers-api/profiles/100-Slingshot.jpg"
+"Sludge",2,10,"Jungle Warrior and Demolitions","https://res.cloudinary.com/crxssed/image/upload/v1609790417/transformers-api/profiles/101-Sludge.jpg"
+"Smokescreen",2,1,"Diversionary Tactician","https://res.cloudinary.com/crxssed/image/upload/v1609790427/transformers-api/profiles/102-Smokescreen.jpg"
+"Snarl",2,10,"Desert Warrior","https://res.cloudinary.com/crxssed/image/upload/v1609790438/transformers-api/profiles/103-Snarl.jpg"
+"Soundwave",3,1,"Communications","https://res.cloudinary.com/crxssed/image/upload/v1609790447/transformers-api/profiles/104-Soundwave.jpg"
+"Springer",2,1,"Aerial Defense","https://res.cloudinary.com/crxssed/image/upload/v1609790454/transformers-api/profiles/105-Springer.jpg"
+"Starscream",3,1,"Decepticon Aerospace Commander","https://res.cloudinary.com/crxssed/image/upload/v1609790466/transformers-api/profiles/106-Starscream.jpg"
+"Steeljaw",2,1,"Tracker","https://res.cloudinary.com/crxssed/image/upload/v1609790484/transformers-api/profiles/107-Steeljaw.jpg"
+"Streetwise",2,4,"Interceptor","https://res.cloudinary.com/crxssed/image/upload/v1609790493/transformers-api/profiles/108-Streetwise.jpg"
+"Sunstreaker",2,1,"Warrior","https://res.cloudinary.com/crxssed/image/upload/v1609790503/transformers-api/profiles/109-Sunstreaker.jpg"
+"Superion",2,2,"Warrior","https://res.cloudinary.com/crxssed/image/upload/v1609790513/transformers-api/profiles/110-Superion.jpg"
+"Swindle",3,5,"Munitions Expert","https://res.cloudinary.com/crxssed/image/upload/v1609790523/transformers-api/profiles/111-Swindle.jpg"
+"Swoop",2,10,"Bombardier","https://res.cloudinary.com/crxssed/image/upload/v1609790533/transformers-api/profiles/112-Swoop.jpg"
+"Tailgate",2,1,"Scout","https://res.cloudinary.com/crxssed/image/upload/v1609790547/transformers-api/profiles/113-Tailgate.jpg"
+"Tantrum",3,9,"Fueler","https://res.cloudinary.com/crxssed/image/upload/v1609790559/transformers-api/profiles/114-Tantrum.jpg"
+"Thrust",3,1,"Warrior","https://res.cloudinary.com/crxssed/image/upload/v1609790568/transformers-api/profiles/115-Thrust.jpg"
+"Thundercracker",3,1,"Warrior","https://res.cloudinary.com/crxssed/image/upload/v1609790578/transformers-api/profiles/116-Thundercracker.jpg"
+"Topspin",2,1,"Land & Sea Assault","https://res.cloudinary.com/crxssed/image/upload/v1609790597/transformers-api/profiles/117-Topspin.jpg"
+"Tracks",2,1,"Warrior","https://res.cloudinary.com/crxssed/image/upload/v1609790607/transformers-api/profiles/118-Tracks.jpg"
+"Trailbreaker",2,1,"Defensive Strategist","https://res.cloudinary.com/crxssed/image/upload/v1609790620/transformers-api/profiles/119-Trailbreaker.jpg"
+"Trypticon",3,1,"Assault Base","https://res.cloudinary.com/crxssed/image/upload/v1609790633/transformers-api/profiles/120-Trypticon.jpg"
+"Twin Twist",2,1,"Demolitions","https://res.cloudinary.com/crxssed/image/upload/v1609790655/transformers-api/profiles/121-Twin%20Twist.jpg"
+"Ultra Magnus",2,1,"City Commander","https://res.cloudinary.com/crxssed/image/upload/v1609790666/transformers-api/profiles/122-Ultra%20Magnus.jpg"
+"Unicron",1,1,"Universal Dominator","https://res.cloudinary.com/crxssed/image/upload/v1609790677/transformers-api/profiles/123-Unicron.jpg"
+"Vortex",3,5,"Interrogation","https://res.cloudinary.com/crxssed/image/upload/v1609790685/transformers-api/profiles/124-Vortex.jpg"
+"Warpath",2,1,"Warrior","https://res.cloudinary.com/crxssed/image/upload/v1609790707/transformers-api/profiles/125-Warpath.jpg"
+"Wheelie",2,1,"Survivalist","https://res.cloudinary.com/crxssed/image/upload/v1609790720/transformers-api/profiles/126-Wheelie.jpg"
+"Wheeljack",2,1,"Mechanical Engineer","https://res.cloudinary.com/crxssed/image/upload/v1609790733/transformers-api/profiles/127-Wheeljack.jpg"
+"Wildrider",3,7,"Terrorist","https://res.cloudinary.com/crxssed/image/upload/v1609790742/transformers-api/profiles/128-Wildrider.jpg"
+"Windcharger",2,1,"Warrior","https://res.cloudinary.com/crxssed/image/upload/v1609790767/transformers-api/profiles/129-Windcharger.jpg"
+"Wreck-Gar",2,13,"Junkion Leader","https://res.cloudinary.com/crxssed/image/upload/v1609790778/transformers-api/profiles/130-Wreck-Gar.jpg"
