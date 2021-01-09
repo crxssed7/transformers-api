@@ -95,6 +95,14 @@ class Allegiance(Resource):
         db.session.commit()
         return allegiance, 201
 
+    def delete(self, allegiance_id):
+        result = AllegianceModel.query.filter_by(id=allegiance_id).first()
+        if not result:
+            abort(404, message="No Allegiance found with that ID")
+        db.session.delete(result)
+        db.session.commit()
+        return '', 204
+
 class Subgroup(Resource):
     @marshal_with(resource_fields.subgroup_resource_fields)
     def get(self, subgroup_id):
@@ -119,6 +127,14 @@ class Subgroup(Resource):
         db.session.add(subgroup)
         db.session.commit()
         return subgroup, 201
+
+    def delete(self, subgroup_id):
+        result = SubgroupModel.query.filter_by(id=subgroup_id).first()
+        if not result:
+            abort(404, message="No Subgroup found with that ID")
+        db.session.delete(result)
+        db.session.commit()
+        return '', 204
 
 api.add_resource(Transformer, "/transformers/<int:transformer_id>")
 api.add_resource(Allegiance, "/allegiance/<int:allegiance_id>")

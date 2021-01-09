@@ -1,28 +1,23 @@
 import requests
+import csv
 
 BASE = "http://127.0.0.1:5000/"
 
-data = {
-    'name': 'Test',
-    'allegiance': 1,
-    'subgroup': 1,
-    'role': 'Role',
-    'first_appearance': 'yeet',
-    'image': 'yeet',
-    'description': 'This is a really long description'
-}
+# 0 = Name
+# 1 = Alignment
+# 2 = Image
 
-#response = requests.delete(BASE + "transformers/2")
-#print(response)
+with open("allegiance.csv", newline='') as csvfile:
+    reader = csv.reader(csvfile, delimiter=',', quotechar='"')
+    i = 1
+    for row in reader:
+        data = {
+            'name': row[0],
+            'alignment': row[1],
+            'image': row[2]
+        }
 
-#data = {
-#    'name': 'Autobot',
-#    'alignment': 'Good',
-#    'image': 'This is the image url'
-#}
-#
-#response = requests.get(BASE + "allegiance/1")
-#print(response.json())
+        response = requests.put(BASE + "allegiance/" + str(i), data=data)
+        print(response.json())
 
-response = requests.delete(BASE + "transformers/1")
-print(response)
+        i = i + 1
