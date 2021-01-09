@@ -1,7 +1,7 @@
 import requests
 import csv
 
-BASE = "http://127.0.0.1:5000/"
+BASE = "http://192.168.1.15:5000/"
 
 # 0 = Name
 # 1 = Alignment
