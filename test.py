@@ -7,7 +7,22 @@ BASE = "http://127.0.0.1:5000/"
 # 1 = Alignment
 # 2 = Image
 
-with open("allegiance.csv", newline='') as csvfile:
+#with open("allegiance.csv", newline='') as csvfile:
+#    reader = csv.reader(csvfile, delimiter=',', quotechar='"')
+#    i = 1
+#    for row in reader:
+#        data = {
+#            'name': row[0],
+#            'alignment': row[1],
+#            'image': row[2]
+#        }
+#
+#        response = requests.put(BASE + "allegiance/" + str(i), data=data)
+#        print(response.json())
+#
+#        i = i + 1
+
+with open("subgroup.csv", newline='') as csvfile:
     reader = csv.reader(csvfile, delimiter=',', quotechar='"')
     i = 1
     for row in reader:
@@ -17,7 +32,7 @@ with open("allegiance.csv", newline='') as csvfile:
             'image': row[2]
         }
 
-        response = requests.put(BASE + "allegiance/" + str(i), data=data)
+        response = requests.put(BASE + "subgroup/" + str(i), data=data)
         print(response.json())
 
         i = i + 1
