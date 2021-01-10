@@ -19,7 +19,7 @@ class TransformerModel(db.Model):
     role = db.Column(db.String(100))
     first_appearance = db.Column(db.String(100))
     image = db.Column(db.String(200))
-    description = db.Column(db.String(500))
+    description = db.Column(db.String(1500))
 
 class AllegianceModel(db.Model):
     id = db.Column(db.Integer, primary_key=True)
@@ -32,6 +32,8 @@ class SubgroupModel(db.Model):
     name = db.Column(db.String(100), nullable=False)
     alignment = db.Column(db.String(20), nullable=False)
     image = db.Column(db.String(200))
+
+db.create_all()
 
 class Transformer(Resource):
     @marshal_with(resource_fields.transformer_resource_fields)
