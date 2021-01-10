@@ -16,7 +16,8 @@ A database of Transformers characters
 *Filter for a Transformer* <br>
 `filter_by` - Required, the value to filter by, could be `name`, `allegiance`, or `subgroup` etc *{STRING}* <br>
 `query` - Required, the term to filter for *{STRING}* <br>
-`page` - Optional, the page to return. Default is 1 *{INTEGER}*
+`page` - Optional, the page to return. Default is 1 *{INTEGER}* <br>
+NOTE - Query params can also be sent as JSON in the request body
 
 # Models
 
