@@ -25,3 +25,9 @@ subgroup_resource_fields = {
     'alignment': fields.String,
     'image': fields.String
 }
+
+tf_filter_resource_fields = {
+    'num_pages': fields.Integer,
+    'total_count':fields.Integer,
+    'results': fields.List(fields.Nested(transformer_resource_fields))
+}

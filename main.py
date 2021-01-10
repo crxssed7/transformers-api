@@ -1,8 +1,9 @@
 from flask import Flask
 from flask_restful import Api, Resource, reqparse, abort, fields, marshal_with
-from flask_sqlalchemy import SQLAlchemy
+from flask_sqlalchemy import SQLAlchemy, Pagination
 import model_args
 import resource_fields
+import json
 
 app = Flask(__name__)
 api = Api(app)
@@ -136,7 +137,64 @@ class Subgroup(Resource):
         db.session.commit()
         return '', 204
 
+class TransformerFilter(Resource):
+    @marshal_with(resource_fields.tf_filter_resource_fields)
+    def get(self):
+        args = model_args.transformer_filter_args.parse_args()
+
+        page = 1
+
+        # Check if there is a page specified
+        if args['page']:
+            page = args['page']
+
+        if args['filter'].lower() == "allegiance_name":
+            # Filter by allegiance
+            
+            result = TransformerModel.query.filter(TransformerModel.allegiance_name.like('%' + args['query'] + '%')).paginate(page=page, per_page=10, error_out=True)
+            if not result:
+                abort(404, message="No results found")
+            
+            results = {
+                'num_pages': result.pages,
+                'total_count': result.total,
+                'results': result.items
+            }
+
+            return results
+        elif args['filter'].lower() == "subgroup_name":
+            # Filter by subgroup
+
+            result = TransformerModel.query.filter(TransformerModel.subgroup_name.like('%' + args['query'] + '%')).paginate(page=page, per_page=10, error_out=True)
+            if not result.items:
+                abort(404, message="No results found")
+            
+            results = {
+                'num_pages': result.pages,
+                'total_count': result.total,
+                'results': result.items
+            }
+
+            return results
+        elif args['filter'].lower() == "name":
+            # Search by name
+
+            result = TransformerModel.query.filter(TransformerModel.name.like('%' + args['query'] + '%')).paginate(page=page, per_page=10, error_out=True)
+            if not result.items:
+                abort(404, message="No results found")
+            
+            results = {
+                'num_pages': result.pages,
+                'total_count': result.total,
+                'results': result.items
+            }
+
+            return results
+        else:
+            abort(400, message="Connot use the filter: " + args['filter'])
+
 api.add_resource(Transformer, "/transformers/<int:transformer_id>")
+api.add_resource(TransformerFilter, "/transformers")
 api.add_resource(Allegiance, "/allegiance/<int:allegiance_id>")
 api.add_resource(Subgroup, "/subgroup/<int:subgroup_id>")
 
