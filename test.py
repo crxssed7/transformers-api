@@ -54,5 +54,15 @@ BASE = "http://192.168.1.15:5000/"
 #
 #        i = i + 1
 
-response = requests.delete(BASE + "transformers/131")
-print(response)
+with open("tf_extra_details.csv", newline='') as csvfile:
+    reader = csv.reader(csvfile, delimiter='|', quotechar='"')
+    for row in reader:
+        data = {
+            'description': row[2]
+        }
+
+        response = requests.patch(BASE + "transformers/" + str(row[0]), data=data)
+        print(response.json())
+
+#response = requests.delete(BASE + "transformers/131")
+#print(response)
