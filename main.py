@@ -3,7 +3,6 @@ from flask_restful import Api, Resource, reqparse, abort, fields, marshal_with
 from flask_sqlalchemy import SQLAlchemy, Pagination
 import model_args
 import resource_fields
-import json
 
 app = Flask(__name__)
 api = Api(app)
@@ -148,11 +147,11 @@ class TransformerFilter(Resource):
         if args['page']:
             page = args['page']
 
-        if args['filter'].lower() == "allegiance_name":
+        if args['filter'].lower() == "allegiance":
             # Filter by allegiance
             
             result = TransformerModel.query.filter(TransformerModel.allegiance_name.like('%' + args['query'] + '%')).paginate(page=page, per_page=10, error_out=True)
-            if not result:
+            if not result.items:
                 abort(404, message="No results found")
             
             results = {
@@ -162,7 +161,7 @@ class TransformerFilter(Resource):
             }
 
             return results
-        elif args['filter'].lower() == "subgroup_name":
+        elif args['filter'].lower() == "subgroup":
             # Filter by subgroup
 
             result = TransformerModel.query.filter(TransformerModel.subgroup_name.like('%' + args['query'] + '%')).paginate(page=page, per_page=10, error_out=True)
