@@ -7,6 +7,7 @@ transformer_resource_fields = {
     'allegiance_name': fields.String,
     'subgroup': fields.String,
     'subgroup_name': fields.String,
+    'first_appearance': fields.String,
     'role': fields.String,
     'image': fields.String,
     'description': fields.String
