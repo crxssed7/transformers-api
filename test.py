@@ -54,5 +54,5 @@ BASE = "http://192.168.1.15:5000/"
 #
 #        i = i + 1
 
-response = requests.get(BASE + "transformers/filter=allegiance_name&query=autobot&page=1")
-print(response.json())
+response = requests.delete(BASE + "transformers/131")
+print(response)

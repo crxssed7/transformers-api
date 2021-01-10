@@ -62,6 +62,25 @@ class Transformer(Resource):
         db.session.commit()
         return transformer, 201
 
+    @marshal_with(resource_fields.transformer_resource_fields)
+    def patch(self, transformer_id):
+        args = model_args.transformer_patch_args.parse_args()
+        # Check if the Transformer exists
+        result = TransformerModel.query.filter_by(id=transformer_id).first()
+        if not result:
+            abort(404, message="No Transformer found with that ID")
+        # Set the values if specified
+        if args['role']:
+            result.role = args['role']
+        if args['first_appearance']:
+            result.first_appearance = args['first_appearance']
+        if args['image']:
+            result.image = args['image']
+        if args['description']:
+            result.description = args['description']
+        db.session.commit()
+        return result
+
     def delete(self, transformer_id):
         result = TransformerModel.query.filter_by(id=transformer_id).first()
         if not result:
