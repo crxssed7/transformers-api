@@ -12,14 +12,11 @@ A database of Transformers characters
 *Get the Transformer that has the specified ID* <br>
 `id` - Required, ID of the Transformer *{INTEGER}*
 
-## **GET** */transformers/filter={`filter_by`}&pageSize={`page_size`}* <br>
+## **GET** */transformers?filter=`filter_by`&query=`query`&page=`page`* <br>
 *Filter for a Transformer* <br>
-`filter_by` - Required, the value to filter by, could be `name`, `function`, `allegiance` etc *{STRING}* <br>
-`page_size` - Optional, the maximum amount of results the request should return. Default is 10 *{INTEGER}*
-
-## **GET** */transformers/search/{`query`}* <br>
-*Search for a Transformer based off of the given query* <br>
-`query` - Required, the name of the Transformer to search for *{STRING}*
+`filter_by` - Required, the value to filter by, could be `name`, `allegiance`, or `subgroup` etc *{STRING}* <br>
+`query` - Required, the term to filter for *{STRING}* <br>
+`page` - Optional, the page to return. Default is 1 *{INTEGER}*
 
 # Models
 
