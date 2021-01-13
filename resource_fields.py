@@ -3,9 +3,9 @@ from flask_restful import fields
 transformer_resource_fields = {
     'id': fields.Integer,
     'name': fields.String,
-    'allegiance': fields.String,
+    'allegiance': fields.Integer,
     'allegiance_name': fields.String,
-    'subgroup': fields.String,
+    'subgroup': fields.Integer,
     'subgroup_name': fields.String,
     'first_appearance': fields.String,
     'role': fields.String,
