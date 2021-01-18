@@ -4,7 +4,7 @@ A database of Transformers characters
 ![Transformers](logo.png)
 
 # Endpoints
-`baseURL` - LOCALHOST
+`baseURL` - https://transformersapi.herokuapp.com/
 
 # Transformers
 
