@@ -5,6 +5,8 @@ A database of Transformers characters
 
 # Endpoints
 `baseURL` - https://transformersapi.herokuapp.com/
+<br><br>
+NOTE: navigating to the `baseURL` will return a 404 error, you must navigate to a certain ID or filter, for example: https://transformersapi.herokuapp.com/transformers/1
 
 # Transformers
 
