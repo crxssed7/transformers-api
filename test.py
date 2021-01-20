@@ -1,7 +1,7 @@
 import requests
 import csv
 
-BASE = "http://192.168.1.15:5000/"
+BASE = "http://127.0.0.1:5000/"
 
 # 0 = Name
 # 1 = Alignment
@@ -64,5 +64,5 @@ BASE = "http://192.168.1.15:5000/"
 #        response = requests.patch(BASE + "transformers/" + str(row[0]), data=data)
 #        print(response.json())
 
-response = requests.get(BASE + "transformers/131")
+response = requests.delete(BASE + "transformers/131")
 print(response)
