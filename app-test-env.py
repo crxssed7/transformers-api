@@ -219,4 +219,4 @@ api.add_resource(Allegiance, "/allegiance/<int:allegiance_id>")
 api.add_resource(Subgroup, "/subgroup/<int:subgroup_id>")
 
 if __name__ == "__main__":
-    app.run(debug=True, host='192.168.1.15')
+    app.run(debug=True)
