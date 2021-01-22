@@ -10,7 +10,7 @@ NOTE: navigating to the `baseURL` will return a 404 error, you must navigate to 
 
 # Transformers
 
-## **GET** */transformers/{`id`}* <br>
+## **GET** */transformers/`id`* <br>
 *Get the Transformer that has the specified ID* <br>
 `id` - Required, ID of the Transformer *{INTEGER}*
 
